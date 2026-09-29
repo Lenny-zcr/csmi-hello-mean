@@ -1,14 +1,15 @@
 # Mon premier projet
 
-$$\bar{x} = \frac{1}{n} \sum x_i$$
-
-## Compilation
+$$\bar{x} = \frac{1}{n} \sum_{i=0}^n x_i$$
+## compilation
 
 ```
 mpic++ --std=c++17 -o mean mean.cpp
 ```
 
-## Sous Codespace
+## sous codespace
+
+il faut installer openmpi
 
 ```
 sudo apt update
